@@ -1,4 +1,4 @@
-#Webste Image
+# Website Image
 ![Website Image](/public/website-img.png)
 # Getting Started with Create React App
 
