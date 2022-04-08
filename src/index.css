@@ -6,7 +6,7 @@ body {
   box-sizing: border-box;
 }
 .container {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -105,15 +105,18 @@ h2 {
   margin: 20px auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 40px;
+  grid-gap: 20px;
 }
+
 .img-wrap {
   overflow: hidden;
   height: 0;
   padding: 50% 0;
   position: relative;
   opacity: 0.8;
+  box-shadow: 10px 10px 13px -4px rgba(0,0,0,0.23);
 }
+
 .img-wrap img {
   min-width: 100%;
   min-height: 100%;
@@ -123,6 +126,7 @@ h2 {
   left: 0;
   max-width: 150%;
 }
+
 
 /* modal styles */
 .backdrop {

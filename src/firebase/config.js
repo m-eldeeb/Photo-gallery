@@ -4,7 +4,7 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyByTP0HKwZy7DzxFzaJTrFYHTzocDcnL7U",
+  apiKey: process.env.FIREBASE_PUPBLIC_KEY,
   authDomain: "photo-upload-d2673.firebaseapp.com",
   projectId: "photo-upload-d2673",
   storageBucket: "photo-upload-d2673.appspot.com",

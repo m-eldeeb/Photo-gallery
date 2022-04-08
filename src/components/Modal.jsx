@@ -24,6 +24,7 @@ function Modal({ selectedImg, setSelectedImg }) {
             src={selectedImg}
             initial={{ y: "-100vh" }}
             animate={{ y: 0 }}
+            transition={{ duration: .5 }}
             alt=""
           />
         </motion.div>,

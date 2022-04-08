@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import useStorage from "../hooks/useStorage";
 
 function Progress({ file, setFile }) {
   const { url, progress } = useStorage(file);
-  console.log(url, progress);
-
+ 
+  
   useEffect(() => {
     if (url) {
       setFile(null);
